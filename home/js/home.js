@@ -4,7 +4,7 @@ document.querySelectorAll("aside ul li a")[0].href="./home.html";
 //request courses info
 function getCourses(){
     let xmlReq=new XMLHttpRequest();
-    xmlReq.open("GET","../../json/courses.json");
+    xmlReq.open("GET","../json/courses.json");
     xmlReq.send();
     return xmlReq;
 };

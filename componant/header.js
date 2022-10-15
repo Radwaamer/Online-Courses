@@ -30,7 +30,7 @@ document.body.querySelector(".main").innerHTML+=`<header>
 //request login info
 function req(){
     let xmlReq=new XMLHttpRequest();
-    xmlReq.open("GET","../../json/login.json");
+    xmlReq.open("GET","../json/login.json");
     xmlReq.send();
     return xmlReq;
 }

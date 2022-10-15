@@ -40,6 +40,14 @@ document.body.querySelector(".main").innerHTML+=`<aside>
 </aside>`;
 
 //request data for profile info
+function req(){
+    let xmlReq=new XMLHttpRequest();
+    xmlReq.open("GET","../json/login.json");
+    xmlReq.send();
+    return xmlReq;
+}
+
+//request data for profile info
 function infoAside(){
     let xmlReq=req();
     xmlReq.onreadystatechange=function(){
