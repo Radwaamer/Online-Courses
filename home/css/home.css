@@ -1,0 +1,58 @@
+/* start quick options */
+.quick .options{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px ,1fr));
+    gap:30px;
+}
+.quick .option{
+    background-color: var(--white);
+    padding: 15px;
+    border-radius: var(--border-radius);
+    height: fit-content;
+}
+.quick .option h3{
+    color: var(--black);
+}
+.quick .action p{
+    color: var(--light-color);
+}
+.quick .action span{
+    color: var(--orange);
+    font-weight: bold;
+}
+.quick .option:not(:first-child){
+    padding-bottom: 30px;
+}
+.quick .options .all{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.quick .options .all div{
+    display: flex;
+    background-color: var(--light-bg);
+    padding: 10px;
+    border-radius: var(--border-radius);
+    font-size: 15px;
+}
+.quick .options .all div svg{
+    margin-right: 10px;
+    color: var(--black);
+}
+.quick .options .all div p{
+    color: var(--light-color);
+}
+.quick .options .all div:hover svg,
+.quick .options .all div:hover p{
+    color: var(--white);
+}
+/* end quick options */
+
+/* start our courses */
+.our-courses .view{
+    display: block;
+    width: fit-content;
+    margin: 35px auto 0;
+    font-size: 20px;
+}
+/* end our courses */

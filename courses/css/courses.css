@@ -1,0 +1,15 @@
+section .nums{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 35px;
+}
+section .nums .num{
+    padding: 10px;
+    border-radius: var(--border-radius);
+    opacity: 0.65;
+}
+section .nums .num.active,
+section .nums .num:hover{
+    opacity: 1;
+}

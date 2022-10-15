@@ -1,0 +1,107 @@
+/* start choose us */
+.choose .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.choose .image{
+    min-width: 50%;
+}
+.choose .image img{
+    width: 100%;
+}
+.choose .text h2{
+    font-size: 32px;
+    margin: 0 0 16px;
+    color: var(--black);
+}
+.choose .text p{
+    color: var(--light-color);
+    line-height: 1.8;
+    font-size: 18px;
+}
+.choose .text a{
+    display: block;
+    width: fit-content;
+}
+/* small screen */
+@media (max-width:768px) {
+    .choose .container{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0;
+    }
+    .choose{
+        margin-bottom: 30px;
+    }
+}
+/* end choose us */
+
+/* start statistics */
+.statistics .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    gap: 20px;
+}
+.statistics .stat{
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    border-radius: var(--border-radius);
+    gap: 20px;
+    justify-content: center;
+}
+.statistics .stat svg{
+    color: var(--main-color);
+    font-size: 40px;
+}
+.statistics .stat .text span{
+    font-weight: bold;
+    font-size: 25px;
+    color: var(--black);
+}
+.statistics .stat .text p{
+    color: var(--light-color);
+    margin-top: 7px;
+}
+/* end statistics */
+
+/* start students reviews */
+.students-reviews .reviews .review{
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: var(--border-radius);
+    position: relative;
+}
+.students-reviews .reviews .review .quote{
+    font-size: 50px;
+    position: absolute;
+    color: var(--light-color);
+    right: 15px;
+    top: 15px;
+}
+.students-reviews .reviews .review .info{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.students-reviews .reviews .review .info img{
+    border-radius: 50%;
+    width: 60px;
+}
+.students-reviews .reviews .review .info .text p{
+    font-weight: bold;
+    color: var(--black);
+}
+.students-reviews .reviews .review .info .text .stars{
+    display: flex;
+    color: var(--orange);
+}
+.students-reviews .reviews .review p{
+    line-height: 1.8;
+    color: var(--light-color);
+}
+/* end students reviews */

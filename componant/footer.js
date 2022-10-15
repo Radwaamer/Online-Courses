@@ -1,0 +1,1 @@
+document.body.innerHTML+=`<footer>© copyright @ 2022 by <span>Radwa Amer</span> | all rights reserved!</footer>`;
