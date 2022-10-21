@@ -91,9 +91,10 @@ p{
 .main-head{
     color: var(--black);
     border-bottom:var(--border);
-    padding: 20px 0 15px 0;
+    padding: 40px 0 15px 0;
     text-transform: capitalize;
     font-weight: 800;
+    margin-top: 0;
 }
 .container{
     margin: 0 auto;
@@ -149,7 +150,6 @@ header nav form{
 header nav form #search{
     padding: 15px 40px 15px 20px;
     border-radius: 10px;
-    min-width: 435px;
     background-color: var(--light-bg);
     color: var(--orange);
     caret-color: var(--main-color);
@@ -218,7 +218,7 @@ header .info{
     padding: 25px;
     text-align: center;
     top: 85px;
-    right: 0px;
+    right: 15px;
     width: 300px;
     border-radius: var(--border-radius);
     transform: scale(0);
