@@ -212,6 +212,20 @@ header nav .icons .srch{
     }
 }
 
+/* meduim screen */
+@media (min-width:768px) {
+    header nav form #search{
+        min-width: 368px;
+    }
+}
+
+/* large screen */
+@media (min-width:992px) {
+    header nav form #search{
+        min-width: 500px;
+    }
+}
+
 header .info{
     position: absolute;
     background-color: var(--white);
