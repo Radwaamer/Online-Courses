@@ -1,0 +1,139 @@
+/* start playlist details */
+.details .playlist{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--white);
+    padding: 20px;
+    position: relative;
+}
+
+.details .playlist .image{
+    position: relative;
+    margin-top: 70px;
+    width: 165%;
+}
+.details .playlist .image img{
+    max-width: 100%;
+    border-radius: var(--border-radius);
+}
+.details .playlist .image span{
+    position: absolute;
+    color: white;
+    background-color: rgba(51, 51, 51, 0.511);
+    padding: 7px 15px;
+    border-radius: var(--border-radius);
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+}
+
+.details .playlist .text .info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.details .playlist .text .info img{
+    border-radius: 50%;
+    max-width: 80px;
+}
+.details .playlist .text .info p{
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: var(--black);
+}
+.details .playlist .text .info span{
+    color: var(--light-color);
+    font-size: 15px;
+}
+.details .playlist .text h3{
+    color: var(--black);
+}
+.details .playlist .text .detail{
+    color: var(--light-color);
+    line-height: 1.8;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.details .playlist .save{
+    position: absolute;
+    background-color: var(--light-bg);
+    color: var(--light-color);
+    top: 15px;
+    left: 20px;
+}
+.details .playlist .save svg{
+    color: var(--black);
+    transition: var(--main-transition);
+    margin-right: 4px;
+}
+.details .playlist .save:hover svg{
+    color: var(--white);
+}
+.details .playlist .save.saved{
+    background-color: var(--orange);
+    color: var(--white);
+}
+.details .playlist .save.saved svg{
+    color: var(--white);
+}
+/* end playlist details */
+
+/* start playlist videos */
+.videos .parts{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px ,1fr));
+    gap: 30px;
+}
+.videos .parts .part{
+    background-color: var(--white);
+    border-radius: var(--border-radius);
+    padding: 20px;
+    cursor: pointer;
+    transition: var(--main-transition);
+}
+.videos .parts .part:hover{
+    box-shadow: 0px 0px 40px -25px black;
+}
+.videos .parts .part .image{
+    position: relative;
+}
+.videos .parts .part .image .layout{
+    background-color: rgba(51, 51, 51, 0.34);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 4px);
+    border-radius: var(--border-radius);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: var(--main-transition);
+}
+.videos .parts .part:hover .image .layout{
+    opacity: 1;
+}
+.videos .parts .part .image .layout svg{
+    font-size: 50px;
+    color: white;
+}
+.videos .parts .part .image img{
+    width: 100%;
+    border-radius: var(--border-radius);
+}
+.videos .parts .part p{
+    color: var(--black);
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.videos .parts .part:hover p{
+    color: var(--orange);
+}
+/* end playlist videos */

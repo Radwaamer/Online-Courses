@@ -143,6 +143,27 @@ header nav .logo a{
     font-size: 30px;
     color: var(--main-color);
 }
+header nav .logo a{
+    font-weight: bold;
+    font-size: 35px;
+    color: var(--black);
+    position: relative;
+}
+header nav .logo a::after{
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 22%;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 106%;
+    transition: var(--main-transition);
+    -webkit-text-fill-color: var(--main-color);
+}
+header nav .logo a:hover::after{
+    width: 100%;
+}
 
 header nav form{
     position: relative;
@@ -287,6 +308,10 @@ aside .exit{
     padding: 5px 15px;
     margin-left: 84%;
 }
+aside ul li.active p,
+aside ul li.active svg{
+    color: var(--orange);
+}
 aside ul li a{
     display: flex;
     transition: var(--main-transition);
@@ -352,6 +377,10 @@ aside .info button{
     border-radius: var(--border-radius);
     color: var(--black);
 }
+.courses .course:hover{
+    box-shadow: 0px 0px 40px -25px black;
+    transform: scale(1.01);
+}
 .courses .course .info{
     display: flex;
     align-items: center;
@@ -374,10 +403,6 @@ aside .info button{
 .courses .course .core{
     cursor: pointer;
     margin-top: 20px;
-}
-.courses .course:hover{
-    box-shadow: 0px 0px 40px -25px black;
-    transform: scale(1.01);
 }
 .courses .course .core .image{
     position: relative;

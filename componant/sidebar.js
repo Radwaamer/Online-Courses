@@ -25,13 +25,13 @@ function createSidebar(){
             </a>
         </li>
         <li>
-            <a href="#">
+            <a href="../teachers/teachers.html">
                 <i class="fa-solid fa-chalkboard-user"></i>
                 <p>Teachers</p>
             </a>
         </li>
         <li>
-            <a href="#">
+            <a href="aaa">
                 <i class="fa-solid fa-headset"></i>
                 <p>Contact Us</p>
             </a>
@@ -78,3 +78,10 @@ document.querySelector("header nav .icons .menu").onclick=()=>{
 document.querySelector("aside .exit").addEventListener("click",()=>{
     document.querySelector("aside").classList.remove("active");
 });
+
+// active page style
+document.querySelectorAll("aside ul li a").forEach((a)=>{
+    if(a.href.includes(window.location.pathname)){
+        a.parentElement.classList.add("active");
+    }
+})

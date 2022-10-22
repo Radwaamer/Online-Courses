@@ -2,7 +2,7 @@
 function createHeader(){
     let headerText=`<div class="container">
         <nav>
-            <p class="logo"><a href="#">Educa</a></p>
+            <p class="logo"><a data-text="Educa" href="#">Educa</a></p>
             <form action="post">
                 <input type="search" name="search" id="search" placeholder="Search Courses...">
                 <input type="submit" class="fa-solid fa-magnifying-glass">

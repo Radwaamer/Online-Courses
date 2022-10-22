@@ -1,0 +1,81 @@
+/* start expert teachers */
+.expert-teachers form{
+    position: relative;
+    margin: 30px 0;
+}
+.expert-teachers form #search{
+    padding: 15px 40px 15px 20px;
+    border-radius: 10px;
+    background-color: var(--white);
+    width: 100%;
+    color: var(--orange);
+    caret-color: var(--main-color);
+}
+.expert-teachers form svg{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    font-size: 17px;
+    transition: var(--main-transition);
+    cursor: pointer;
+    color: var(--black);
+}
+.expert-teachers form svg:hover{
+    color: var(--main-color);
+}
+
+.expert-teachers .teachers{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+}
+.expert-teachers .teachers .teacher{
+    background-color: var(--white);
+    border-radius: var(--border-radius);
+    padding: 20px;
+    cursor: pointer;
+}
+.expert-teachers .teachers .teacher:hover{
+    box-shadow: 0px 0px 40px -25px black;
+    transform: scale(1.01);
+}
+
+.expert-teachers .teachers .teacher .info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.expert-teachers .teachers .teacher .info img{
+    border-radius: 50%;
+    max-width: 60px;
+}
+.expert-teachers .teachers .teacher .info .text p{
+    font-weight: bold;
+    font-size: 19px;
+    text-transform: capitalize;
+    color: var(--black);
+}
+.expert-teachers .teachers .teacher .info .text span{
+    color: var(--light-color);
+    font-size: 15px;
+}
+
+.expert-teachers .teachers .teacher .activity{
+    margin-top: 25px;
+    font-size: 18px;
+}
+.expert-teachers .teachers .teacher .activity p{
+    margin: 15px 0;
+    color: var(--light-color);
+}
+.expert-teachers .teachers .teacher .activity span{
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.expert-teachers button.more{
+    display: none;
+    margin: 50px auto;
+}
+/* end expert teachers */

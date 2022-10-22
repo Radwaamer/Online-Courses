@@ -2,185 +2,277 @@
     {
         "user-img":"../files/imgs/avatars/pic-8.jpg",
         "user-name":"osama mohamed",
+        "job title":"System Architect",
         "download-date":"20-10-2022",
         "course-img":"../files/imgs/coursers/thumb-1.png",
         "course-name":"HTML",
-        "videos-num":4
+        "videos-num":4,
+        "total playlists":4,
+        "total videos":18,
+        "total likes":11208
     },
     {
         "user-img":"../files/imgs/avatars/pic-6.jpg",
         "user-name":"zyad moustafa",
+        "job title":"System Designer",
         "download-date":"18-10-2022",
         "course-img":"../files/imgs/coursers/thumb-2.png",
         "course-name":"CSS",
-        "videos-num":8
+        "videos-num":8,
+        "total playlists":8,
+        "total videos":36,
+        "total likes":22416
     },
     {
         "user-img":"../files/imgs/avatars/pic-4.jpg",
         "user-name":"adham sayed",
+        "job title":"Security Specialist",
         "download-date":"16-10-2022",
         "course-img":"../files/imgs/coursers/thumb-3.png",
         "course-name":"JS",
-        "videos-num":10
+        "videos-num":10,
+        "total playlists":10,
+        "total videos":45,
+        "total likes":33020
     },
     {
         "user-img":"../files/imgs/avatars/pic-2.jpg",
         "user-name":"rewan ashraf",
+        "job title":"Front End Designer",
         "download-date":"14-10-2022",
         "course-img":"../files/imgs/coursers/thumb-4.png",
         "course-name":"BootStrap",
-        "videos-num":5
+        "videos-num":5,
+        "total playlists":5,
+        "total videos":23,
+        "total likes":41543
     },
     {
         "user-img":"../files/imgs/avatars/pic-9.jpg",
         "user-name":"ramez safwat",
+        "job title":"Network Engineer",
         "download-date":"21-10-2022",
         "course-img":"../files/imgs/coursers/thumb-5.png",
         "course-name":"JQuery",
-        "videos-num":7
+        "videos-num":7,
+        "total playlists":7,
+        "total videos":32,
+        "total likes":52147
     },
     {
         "user-img":"../files/imgs/avatars/pic-3.jpg",
         "user-name":"islam fathy",
+        "job title":"Programmer",
         "download-date":"15-10-2022",
         "course-img":"../files/imgs/coursers/thumb-6.png",
         "course-name":"Sass",
-        "videos-num":6
+        "videos-num":6,
+        "total playlists":6,
+        "total videos":27,
+        "total likes":18126
     },
     {
         "user-img":"../files/imgs/avatars/pic-1.jpg",
         "user-name":"zienab mohamed",
+        "job title":"IT Manager",
         "download-date":"13-10-2022",
         "course-img":"../files/imgs/coursers/thumb-7.png",
         "course-name":"PHP",
-        "videos-num":9
+        "videos-num":9,
+        "total playlists":9,
+        "total videos":41,
+        "total likes":27517
     },
     {
         "user-img":"../files/imgs/avatars/pic-5.jpg",
         "user-name":"esraa magdy",
+        "job title":"Database Administrator",
         "download-date":"17-10-2022",
         "course-img":"../files/imgs/coursers/thumb-8.png",
         "course-name":"MySQL",
-        "videos-num":9
+        "videos-num":9,
+        "total playlists":9,
+        "total videos":41,
+        "total likes":27518
     },
     {
         "user-img":"../files/imgs/avatars/pic-7.jpg",
         "user-name":"john deo",
+        "job title":"Web Administrator",
         "download-date":"19-10-2022",
         "course-img":"../files/imgs/coursers/thumb-9.png",
         "course-name":"React",
-        "videos-num":10
+        "videos-num":10,
+        "total playlists":10,
+        "total videos":45,
+        "total likes":30209
     },
     {
         "user-img":"../files/imgs/avatars/pic-1.jpg",
         "user-name":"maryam mahmoud",
+        "job title":"IT Director",
         "download-date":"13-10-2022",
         "course-img":"../files/imgs/coursers/thumb-7.png",
         "course-name":"PHP",
-        "videos-num":9
+        "videos-num":9,
+        "total playlists":9,
+        "total videos":41,
+        "total likes":92751
     },
     {
         "user-img":"../files/imgs/avatars/pic-2.jpg",
         "user-name":"dina hatem",
+        "job title":"Front End Designer",
         "download-date":"14-10-2022",
         "course-img":"../files/imgs/coursers/thumb-4.png",
         "course-name":"BootStrap",
-        "videos-num":5
+        "videos-num":5,
+        "total playlists":5,
+        "total videos":23,
+        "total likes":81543
     },
     {
         "user-img":"../files/imgs/avatars/pic-3.jpg",
         "user-name":"habiba azzam",
+        "job title":"Computer Programmer",
         "download-date":"15-10-2022",
         "course-img":"../files/imgs/coursers/thumb-6.png",
         "course-name":"Sass",
-        "videos-num":6
+        "videos-num":6,
+        "total playlists":6,
+        "total videos":27,
+        "total likes":71812
     },
     {
         "user-img":"../files/imgs/avatars/pic-4.jpg",
         "user-name":"abd el rhman maati",
+        "job title":"Information Security Analyst",
         "download-date":"16-10-2022",
         "course-img":"../files/imgs/coursers/thumb-3.png",
         "course-name":"JS",
-        "videos-num":10
+        "videos-num":10,
+        "total playlists":10,
+        "total videos":45,
+        "total likes":63020
     },
     {
         "user-img":"../files/imgs/avatars/pic-5.jpg",
         "user-name":"maya magdy",
+        "job title":"Data Quality Manager",
         "download-date":"17-10-2022",
         "course-img":"../files/imgs/coursers/thumb-8.png",
         "course-name":"MySQL",
-        "videos-num":9
+        "videos-num":9,
+        "total playlists":9,
+        "total videos":41,
+        "total likes":52751
     },
     {
         "user-img":"../files/imgs/avatars/pic-6.jpg",
         "user-name":"mohamed ayman",
+        "job title":"Systems Software Engineer",
         "download-date":"18-10-2022",
         "course-img":"../files/imgs/coursers/thumb-2.png",
         "course-name":"CSS",
-        "videos-num":8
+        "videos-num":8,
+        "total playlists":8,
+        "total videos":36,
+        "total likes":14164
     },
     {
         "user-img":"../files/imgs/avatars/pic-7.jpg",
         "user-name":"hammed amr",
+        "job title":"Security Specialist",
         "download-date":"19-10-2022",
         "course-img":"../files/imgs/coursers/thumb-9.png",
-        "course-name":"React",
-        "videos-num":10
+        "course-name":"Web Developer",
+        "videos-num":10,
+        "total playlists":10,
+        "total videos":45,
+        "total likes":30203
     },
     {
         "user-img":"../files/imgs/avatars/pic-8.jpg",
         "user-name":"asmaa harbi",
+        "job title":"System Architect",
         "download-date":"20-10-2022",
         "course-img":"../files/imgs/coursers/thumb-1.png",
         "course-name":"HTML",
-        "videos-num":4
+        "videos-num":4,
+        "total playlists":4,
+        "total videos":18,
+        "total likes":12082
     },
     {
         "user-img":"../files/imgs/avatars/pic-9.jpg",
         "user-name":"abd allah salama",
+        "job title":"Network Engineer",
         "download-date":"21-10-2022",
         "course-img":"../files/imgs/coursers/thumb-5.png",
         "course-name":"JQuery",
-        "videos-num":7
+        "videos-num":7,
+        "total playlists":7,
+        "total videos":32,
+        "total likes":21471
     },
     {
         "user-img":"../files/imgs/avatars/pic-8.jpg",
         "user-name":"maryam youssef",
+        "job title":".NET Developer",
         "download-date":"20-10-2022",
         "course-img":"../files/imgs/coursers/thumb-1.png",
         "course-name":"HTML",
-        "videos-num":4
+        "videos-num":4,
+        "total playlists":4,
+        "total videos":18,
+        "total likes":12080
     },
     {
         "user-img":"../files/imgs/avatars/pic-6.jpg",
         "user-name":"abd el rhman essam",
+        "job title":"System Designer",
         "download-date":"18-10-2022",
         "course-img":"../files/imgs/coursers/thumb-2.png",
         "course-name":"CSS",
-        "videos-num":8
+        "videos-num":8,
+        "total playlists":8,
+        "total videos":36,
+        "total likes":14160
     },
     {
         "user-img":"../files/imgs/avatars/pic-4.jpg",
         "user-name":"mohanad ahdy",
+        "job title":"Security Specialist",
         "download-date":"16-10-2022",
         "course-img":"../files/imgs/coursers/thumb-3.png",
         "course-name":"JS",
-        "videos-num":10
+        "videos-num":10,
+        "total playlists":10,
+        "total videos":45,
+        "total likes":30920
     },
     {
         "user-img":"../files/imgs/avatars/pic-2.jpg",
         "user-name":"mai gawad",
+        "job title":"Front End Designer",
         "download-date":"14-10-2022",
         "course-img":"../files/imgs/coursers/thumb-4.png",
         "course-name":"BootStrap",
-        "videos-num":5
+        "videos-num":5,
+        "total playlists":5,
+        "total videos":23,
+        "total likes":15043
     },
     {
         "user-img":"../files/imgs/avatars/pic-9.jpg",
         "user-name":"kariem ezzat",
+        "job title":"Application Developer",
         "download-date":"21-10-2022",
         "course-img":"../files/imgs/coursers/thumb-5.png",
         "course-name":"JQuery",
-        "videos-num":7
+        "videos-num":7,
+        "total playlists":7,
+        "total videos":32,
+        "total likes":21547
     }
 ]

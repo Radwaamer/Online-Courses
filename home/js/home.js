@@ -34,8 +34,13 @@ function courses(){
                                     <button class="btn main-btn">View Playlist</button>
                                 </div>
                             </div>`
-            }
-        }
-    }
-}
+            };
+            document.querySelectorAll(".our-courses .courses .course button").forEach((button)=>{
+                button.onclick=()=>{
+                    window.location.href="../../playlist/playlist.html";
+                };
+            });
+        };
+    };
+};
 courses();

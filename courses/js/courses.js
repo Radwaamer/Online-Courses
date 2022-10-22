@@ -1,5 +1,5 @@
 // change courses link
-document.querySelectorAll("aside ul li a")[3].href="./courses.html";
+document.querySelectorAll("aside ul li a")[2].href="./courses.html";
 
 //request courses info
 function getCourses(){
@@ -39,7 +39,12 @@ function courses(){
                                         <p>Complete <span class="category">${response[i]["course-name"]}</span> Tutorial</p>
                                         <button class="btn main-btn">View Playlist</button>
                                     </div>
-                                </div>`
+                                </div>`;
+                    document.querySelectorAll("section .courses .course button").forEach((button)=>{
+                        button.onclick=()=>{
+                            window.location.href="../../playlist/playlist.html";
+                        };
+                    });
                 };
             };
             add();
