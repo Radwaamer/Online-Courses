@@ -9,6 +9,7 @@ function getCourses(){
     return xmlReq;
 };
 
+let selectedi=0;
 //add course section
 function courses(){
     let xmlReq=getCourses();
@@ -35,11 +36,12 @@ function courses(){
                                 </div>
                             </div>`
             };
-            document.querySelectorAll(".our-courses .courses .course button").forEach((button)=>{
-                button.onclick=()=>{
+            let buttons=document.querySelectorAll(".our-courses .courses .course button");
+            for(let i=0;i<buttons.length;i++){
+                buttons[i].onclick=()=>{
                     window.location.href="../../playlist/playlist.html";
                 };
-            });
+            }
         };
     };
 };

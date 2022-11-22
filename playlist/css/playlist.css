@@ -102,6 +102,14 @@
 .videos .parts .part .image{
     position: relative;
 }
+.videos .parts .part .image p{
+    position: absolute;
+    top: -5px;
+    right: 17px;
+    font-size: 2.4rem;
+    font-weight: 1000;
+    color: white;
+}
 .videos .parts .part .image .layout{
     background-color: rgba(51, 51, 51, 0.34);
     position: absolute;
@@ -133,7 +141,7 @@
     font-size: 18px;
     margin-top: 15px;
 }
-.videos .parts .part:hover p{
+.videos .parts .part:hover p:last-child{
     color: var(--orange);
 }
 /* end playlist videos */
