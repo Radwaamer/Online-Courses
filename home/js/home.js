@@ -32,7 +32,7 @@ function courses(){
                                         <span>${response[i]["videos-num"]} videos</span>
                                     </div>
                                     <p>Complete <span class="category">${response[i]["course-name"]}</span> Tutorial</p>
-                                    <button class="btn main-btn" onclick="{window.location.href='../../playlist/playlist.html#${i}'}">View Playlist</button>
+                                    <button class="btn main-btn" onclick="{window.location.href='../playlist/playlist.html#${i}'}">View Playlist</button>
                                 </div>
                             </div>`
             };

@@ -1,5 +1,4 @@
 //get course info
-let selected=1;
 function courseInfo(){
     let info=undefined;
     fetch(`../../json/courses.json`)
