@@ -175,15 +175,16 @@ header nav form #search{
     color: var(--orange);
     caret-color: var(--main-color);
 }
-header nav form svg{
+header nav form button[type="submit"]{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    right: 20px;
+    right: 14px;
     font-size: 17px;
     transition: var(--main-transition);
     cursor: pointer;
     color: var(--black);
+    background-color: transparent;
 }
 header nav form svg:hover{
     color: var(--main-color);

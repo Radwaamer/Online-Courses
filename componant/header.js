@@ -2,10 +2,10 @@
 function createHeader(){
     let headerText=`<div class="container">
         <nav>
-            <p class="logo"><a data-text="Educa" href="#">Educa</a></p>
-            <form action="post">
+            <p class="logo"><a data-text="Educa" href="../home/home.html">Educa</a></p>
+            <form>
                 <input type="search" name="search" id="search" placeholder="Search Courses...">
-                <input type="submit" class="fa-solid fa-magnifying-glass">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
             <div class="icons">
                 <div class="menu btn"><i class="fa-solid fa-bars bars"></i></div>
@@ -74,3 +74,11 @@ document.querySelector("header nav .icons .mood").onclick=function(){
         this.innerHTML=`<i class="fa-solid fa-sun"></i>`;
     };
 };
+
+// handle search courses
+document.querySelector("header nav form").addEventListener("submit",(e)=>{
+    e.preventDefault();
+    if(document.querySelector("header nav form #search").value.trim()!=""){
+        window.location.href=`../courses/courses.html#${document.querySelector("header nav form #search").value.trim()}`;
+    }
+})

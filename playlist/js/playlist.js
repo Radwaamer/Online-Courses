@@ -1,12 +1,12 @@
 //get course info
 let selected=1;
 function courseInfo(){
-    let info=null;
+    let info=undefined;
     fetch(`../../json/courses.json`)
     .then(res=>res.json())
     .then(data=>{
-        info=data[selected];
-        if (info!=null){
+        info=data[window.location.hash.split("#")[1]];
+        if (info!=undefined){
             document.querySelector(".details .playlist").innerHTML=`
             <div class="image">
                     <img src=${info["course-img"]} alt=${info["course-name"]}>
