@@ -1,7 +1,7 @@
 //get course info
 function courseInfo(){
     let info=undefined;
-    fetch(`../../json/courses.json`)
+    fetch(`../json/courses.json`)
     .then(res=>res.json())
     .then(data=>{
         info=data[window.location.hash.split("#")[1]];
