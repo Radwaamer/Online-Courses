@@ -1,0 +1,77 @@
+/* start get in touch */
+.touch{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.touch .contact{
+    display: flex;
+    align-items: center;
+}
+.touch .contact .cont-img{
+    width: 100%;
+}
+.touch .contact .cont-img img{
+    width: 100%;
+}
+.touch .contact .get{
+    background-color: var(--white);
+    text-align: center;
+    padding: 20px;
+    padding-top: 0;
+    border-radius: var(--border-radius);
+    min-width: 350px;
+}
+.touch .contact .get h2{
+    color: var(--black);
+    font-weight: 800;
+}
+.touch .contact .get form input,
+.touch .contact .get form textarea{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    border: var(--border);
+    border-radius: var(--border-radius);
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    box-shadow: var(--light-color) 7px 12px 18px -17px;
+}
+.touch .contact .get form input::placeholder,
+.touch .contact .get form textarea::placeholder{
+    color: var(--light-color);
+}
+
+/* small screen */
+@media (max-width:768px) {
+    .touch .contact{
+        flex-direction: column;
+    }
+}
+/* end get in touch */
+
+/* start info */
+.info .boxes{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+.info .boxes .box{
+    text-align: center;
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: var(--border-radius);
+}
+.info .boxes .box h3{
+    color: var(--black);
+    margin: 0;
+    margin-bottom: 15px;
+}
+.info .boxes .box a{
+    color: var(--light-color);
+}
+.info .boxes .box a:hover{
+    text-decoration: underline;
+}
+/* end info */

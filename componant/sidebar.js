@@ -31,7 +31,7 @@ function createSidebar(){
             </a>
         </li>
         <li>
-            <a href="aaa">
+            <a href="../contact/contact.html">
                 <i class="fa-solid fa-headset"></i>
                 <p>Contact Us</p>
             </a>
