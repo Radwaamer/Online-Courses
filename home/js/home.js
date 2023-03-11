@@ -20,7 +20,7 @@ function courses(){
                 document.querySelector(".our-courses .courses").innerHTML+=`
                 <div class="course">
                                 <div class="info">
-                                    <img src="${response[i]["user-img"]}" alt="">
+                                    <img src="${response[i]["user-img"]}" alt=${response[i]["user-name"]}>
                                     <div class="text">
                                         <p>${response[i]["user-name"]}</p>
                                         <span>${response[i]["download-date"]}</span>
@@ -28,7 +28,7 @@ function courses(){
                                 </div>
                                 <div class="core">
                                     <div class="image">
-                                        <img src="${response[i]["course-img"]}" alt="">
+                                        <img src="${response[i]["course-img"]}" alt=${response[i]["course-name"]}>
                                         <span>${response[i]["videos-num"]} videos</span>
                                     </div>
                                     <p>Complete <span class="category">${response[i]["course-name"]}</span> Tutorial</p>

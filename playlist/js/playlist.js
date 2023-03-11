@@ -23,7 +23,7 @@ function courseInfo(){
                     <p class="detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                         Illum minus reiciendis, error sunt veritatis exercitationem 
                         deserunt velit doloribus itaque voluptate.</p>
-                    <button class="btn main-btn">View Profile</button>
+                    <button class="btn main-btn" onclick="{window.location.href='../teacher profile/teacher-profile.html#${info["id"]}'}">View Profile</button>
                 </div>
                 <button class="btn main-btn save">
                     <i class="fa-regular fa-bookmark"></i> Save Playlist

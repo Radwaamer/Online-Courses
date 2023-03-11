@@ -1,0 +1,41 @@
+/* start profile details */
+.prof-det .details{
+    background-color: var(--white);
+    border-radius: var(--border-radius);
+    text-align: center;
+    padding: 20px;
+}
+.prof-det .details .info img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.prof-det .details .info p{
+    color: var(--black);
+    font-weight: 800;
+    margin: 10px 0 5px;
+    text-transform: capitalize;
+}
+.prof-det .details .info span{
+    color: var(--light-color);
+}
+.prof-det .details .total{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.prof-det .details .total div{
+    background-color: var(--light-bg);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    border-radius: var(--border-radius);
+    color: var(--light-color);
+}
+.prof-det .details .total div span{
+    color: var(--main-color);
+}
+/* start profile details */

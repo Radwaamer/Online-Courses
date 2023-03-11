@@ -367,18 +367,21 @@ aside .info button{
 /* end side bar */
 
 /* start our courses */
-.courses{
+.courses,
+.teacher-courses .teacher-playlists{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(300px ,1fr));
     gap:30px;
 }
-.courses .course{
+.courses .course,
+.teacher-courses .teacher-playlists .core{
     background-color: var(--white);
     padding: 15px;
     border-radius: var(--border-radius);
     color: var(--black);
 }
-.courses .course:hover{
+.courses .course:hover,
+.teacher-courses .teacher-playlists .core:hover{
     box-shadow: 0px 0px 40px -25px black;
     transform: scale(1.01);
 }
@@ -401,18 +404,22 @@ aside .info button{
     color: var(--light-color);
     font-size: 13px;
 }
-.courses .course .core{
+.courses .course .core,
+.teacher-courses .teacher-playlists .core{
     cursor: pointer;
     margin-top: 20px;
 }
-.courses .course .core .image{
+.courses .course .core .image,
+.teacher-courses .teacher-playlists .core .image{
     position: relative;
 }
-.courses .course .core .image img{
+.courses .course .core .image img,.image,
+.teacher-courses .teacher-playlists .core .image img{
     max-width: 100%;
     border-radius: var(--border-radius);
 }
-.courses .course .core .image span{
+.courses .course .core .image span,
+.teacher-courses .teacher-playlists .core .image span{
     position: absolute;
     color: white;
     background-color: rgba(51, 51, 51, 0.511);
@@ -421,7 +428,8 @@ aside .info button{
     top: 10px;
     left: 10px;
 }
-.courses .course .core p{
+.courses .course .core p,
+.teacher-courses .teacher-playlists .core p{
     font-size: 20px;
     font-weight: 800;
     margin: 10px 0;
